@@ -1,14 +1,16 @@
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I am a full stack web developer. I have experience in HTML, CSS,
+        JavaScript, Node.js, Express.js, MySQL, MongoDB, React.js, and
+        Bootstrap. I am currently working my way though the University of
+        Vanderbuilt's Full Stack Web Development Bootcamp. I am also learning
+        suplementary STEM skills using the Brilliant app and doing additional
+        coding practice using the Codeacedmy website. (PERSONAL INFO// Story
+        about how I got into coding// What I am doing now// What I want to do in
+        the future//)
       </p>
     </div>
   );
