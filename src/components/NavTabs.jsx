@@ -1,7 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+// fixed navbar will keep the navbar at the top (relative to top of page) of the page despite scrolling 
+
+//Here we are using object destructuring assignment to pluck off our variables from the props object
+//We assign them to their own variable names
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
@@ -48,4 +50,29 @@ function NavTabs() {
   );
 }
 
-export default NavTabs;
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+function NavBar() {
+  return (
+    <>
+    // try using the link component from react-router-dom to connect the nav links
+      <Navbar bg="dark" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      <br />
+    </>
+  );
+}
+
+export default NavBar;
+
+// export default NavTabs;

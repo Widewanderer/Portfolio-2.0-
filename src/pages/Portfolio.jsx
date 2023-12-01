@@ -12,7 +12,7 @@ function Portfolio() {
       repo: "https://github.com/femke77",
       // name of project image 
       image: "Pic1",
-    },
+    }, 
     {
       name: "project 2 test",
       description: "NRG Stack",
