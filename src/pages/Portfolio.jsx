@@ -4,21 +4,37 @@ function Portfolio() {
   // fill in the required data, image file should be in the assets/projects folder and name should match the "default as " statment in index.js
   const projects = [
     {
-      name: "project 1 test",
-      description: "HTML/JS/CSS",
-      // live site 
-      link: "https://heroku.com",
+      name: "Cultured Cusine",
+      description:
+        "A Recipe site which emerses the user in the culture of the cuisine's region. Recipes are classified by region and accoumpanied by cultural information from said region. ",
+      // live site
+      link: "https://culturedcuisine-59da43e6096e.herokuapp.com/",
       // github repo
-      repo: "https://github.com/femke77",
-      // name of project image 
-      image: "Pic1",
-    }, 
+      repo: "https://github.com/Widewanderer/CulturedCuisine",
+      // name of project image
+      image: "culturedCuisine",
+    },
     {
-      name: "project 2 test",
-      description: "NRG Stack",
-      link: "https://heroku.com/",
-      repo: "https://github.com/femke77",
-      image: "Pic2",
+      name: "Tech Blog",
+      description:
+        "A simple CMS style blog site built in the MVC paradigm structure. Finished version of site will allow users to sign in, make, edit, and delete posts, as well as comment on posts. Website uses Sequilize for ORM, and the express-session npm package for authentication.",
+      link: "https://the-great-slavic-tech-blog-4107dec86ccf.herokuapp.com/",
+      repo: "https://github.com/Widewanderer/Tech-Blog",
+      image: "TechBlog",
+    },
+    {
+      name: "Melody Mapper",
+      description: " ",
+      link: "https://the-great-slavic-tech-blog-4107dec86ccf.herokuapp.com/",
+      repo: "https://github.com/Widewanderer/Tech-Blog",
+      image: "MelodyMapper",
+    },
+    {
+      name: "Weather Wise",
+      description: " ",
+      link: "https://the-great-slavic-tech-blog-4107dec86ccf.herokuapp.com/",
+      repo: "https://github.com/Widewanderer/Tech-Blog",
+      image: "WeatherWisePic",
     },
   ];
 
