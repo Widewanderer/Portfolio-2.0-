@@ -1,4 +1,4 @@
-import Project from "../components/Project";
+import ProjectCard from "../components/Cards.jsx";
 
 function Portfolio() {
   // fill in the required data, image file should be in the assets/projects folder and name should match the "default as " statment in index.js
@@ -27,7 +27,7 @@ function Portfolio() {
     <div>
       <div className="d-flex">
         {projects.map((project) => (
-          <Project project={project} key={"project-" + project.name} />
+          <ProjectCard project={project} key={"project-" + project.name} />
         ))}
       </div>
     </div>
