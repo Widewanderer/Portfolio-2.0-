@@ -1,5 +1,5 @@
-import { Link, useLocation } from 'react-router-dom';
-// fixed navbar will keep the navbar at the top (relative to top of page) of the page despite scrolling 
+import { Link, useLocation } from "react-router-dom";
+// fixed navbar will keep the navbar at the top (relative to top of page) of the page despite scrolling
 
 //Here we are using object destructuring assignment to pluck off our variables from the props object
 //We assign them to their own variable names
@@ -49,16 +49,21 @@ import { Link, useLocation } from 'react-router-dom';
 //   );
 // }
 
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 function Navigation() {
   const currentPage = useLocation().pathname;
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar
+      expand="lg"
+      className="bg-body-tertiary"
+      bg="dark"
+      data-bs-theme="dark"
+    >
       <Container fluid>
-        <h1>Portfolio of the Widewander</h1>
+        <h1 className="text-muted">Portfolio of the Widewander</h1>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -103,9 +108,7 @@ function Navigation() {
     </Navbar>
   );
 }
-  
 
 export default Navigation;
-
 
 // export default NavTabs;
