@@ -19,7 +19,7 @@ function ProjectCard({ project }) {
       </Card.Body>
       <Card.Link href={repo}>
         {" "}
-        <i className="fab fa-github"></i>
+        <i className="fab fa-github" style={{ fontSize: "30px" }}></i> GitHub
       </Card.Link>
     </Card>
   );

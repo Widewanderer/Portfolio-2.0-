@@ -7,7 +7,7 @@ function Portfolio() {
     {
       name: "Cultured Cusine",
       description:
-        "A Recipe site which emerses the user in the culture of the cuisine's region. Recipes are classified by region and accoumpanied by cultural information from said region. ",
+        "A team built Recipe site which emerses the user in the culture of the cuisine's region. Recipes are classified by region and accoumpanied by cultural information from said region. ",
       // live site
       link: "https://culturedcuisine-59da43e6096e.herokuapp.com/",
       // github repo
@@ -25,7 +25,7 @@ function Portfolio() {
     },
     {
       name: "Melody Mapper",
-      description: " ",
+      description: "A team built live music application that can search concerts in the Nashville area. Users can search by band name, date, and even add specific concerts/live music to favorites section saving to local storage. Concerts are displayed from closest performance time and date to most distant performance time and date. links are also provided using the tickemaster API alowing users to perchase tickets. Application addtionally uses a second API (RealTimeEventSearch) for additional concert searches. Tailwind is used for styling framework. ",
       link: "https://the-great-slavic-tech-blog-4107dec86ccf.herokuapp.com/",
       repo: "https://github.com/Widewanderer/Tech-Blog",
       image: "MelodyMapper",
