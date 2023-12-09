@@ -7,10 +7,10 @@ export default function Contact() {
     email: "",
     message: "",
   });
+  const tableWidth = {width: "260px"}
 
   function sendEmail(e) {
     e.preventDefault();
-   
 
     emailjs.send("service_iwhoi0d", "template_jy3vf2g", formState).then(
       function (response) {
@@ -28,7 +28,7 @@ export default function Contact() {
       }
     );
   }
-// Takes in value set by [name] and sets it to the value of the input
+  // Takes in value set by [name] and sets it to the value of the input
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormState({ ...formState, [name]: value });
@@ -43,36 +43,105 @@ export default function Contact() {
         form? )
       </p>
       {/* flex direction column in container to stack form elements */}
-      <form onSubmit={sendEmail}>
-        <label for="title">Email Subject</label>
-        <input
-          value={formState.title}
-          type="text"
-          name="title"
-          onChange={handleChange}
-        />
-        <label for="name">Your Name</label>
-        <input
-          value={formState.name}
-          type="text"
-          name="name"
-          onChange={handleChange}
-        />
-        <label for="email">Email</label>
-        <input
-          value={formState.email}
-          type="email"
-          name="email"
-          onChange={handleChange}
-        />
-        <label for="message">Message</label>
-        <textarea
-          value={formState.message}
-          name="message"
-          onChange={handleChange}
-        />
-        <input type="submit" value="Send" />
-      </form>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <form onSubmit={sendEmail}>
+          <table>
+            <tr>
+              <td>
+                <label htmlFor="title">Email Subject</label>
+              </td>
+              <td>
+                <input
+                  style={tableWidth}
+                  value={formState.title}
+                  type="text"
+                  name="title"
+                  onChange={handleChange}
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label htmlFor="name">Your Name</label>
+              </td>
+              <td>
+                <input
+                  style={tableWidth}
+                  value={formState.name}
+                  type="text"
+                  name="name"
+                  onChange={handleChange}
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label htmlFor="email">Email</label>
+              </td>
+              <td>
+                <input
+                  style={tableWidth}
+                  value={formState.email}
+                  type="email"
+                  name="email"
+                  onChange={handleChange}
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label htmlFor="message">Message</label>
+              </td>
+              <td>
+                <textarea
+                  style={{...tableWidth, height: "180px"}}
+                  height="200px"
+                  value={formState.message}
+                  name="message"
+                  onChange={handleChange}
+                />
+              </td>
+              <td>
+                <input type="submit" value="Send" />
+              </td>
+            </tr>
+            {/* <label htmlFor="title">Email Subject</label>
+            <input
+              value={formState.title}
+              type="text"
+              name="title"
+              onChange={handleChange}
+            />
+            <label htmlFor="name">Your Name</label>
+            <input
+              value={formState.name}
+              type="text"
+              name="name"
+              onChange={handleChange}
+            />
+            <label htmlFor="email">Email</label>
+            <input
+              value={formState.email}
+              type="email"
+              name="email"
+              onChange={handleChange}
+            />
+            <label htmlFor="message">Message</label>
+            <textarea
+              value={formState.message}
+              name="message"
+              onChange={handleChange}
+            />
+            <input type="submit" value="Send" /> */}
+          </table>
+        </form>
+      </div>
     </div>
   );
 }
