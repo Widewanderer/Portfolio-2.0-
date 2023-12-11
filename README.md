@@ -9,7 +9,7 @@ This project is licensed under the terms of the [MIT](https://opensource.org/lic
 
   ## Description 
   
-  A portfolio page for Slava the # Widewanderer. Site contains some basic personal info, links to projects on portfolio page, print or sendable resume, and email contact page. Site was built using React and Bootstap React. 
+  A portfolio page for Slava the # Widewanderer. Site contains some basic personal info, links to projects on portfolio page, print or downloadable resume, and email contact page. Site was built using React and Bootstap React. 
     
   -----
   ## Future Development
