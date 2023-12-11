@@ -22,9 +22,10 @@ export default function Resume() {
         </div>
       ) : (
         <p>
-          (RESUME ) Lists of languages, frameworks, libraries, and tools Ive
+          Hit the "Toggle PDF button to view the Resume!"
+          {/* (RESUME ) Lists of languages, frameworks, libraries, and tools Ive
           used. ( List of projects// Links to projects// Description of
-          projects//?? ) (here or in seperate Page)
+          projects//?? ) (here or in seperate Page) */}
         </p>
       )}
     </div>

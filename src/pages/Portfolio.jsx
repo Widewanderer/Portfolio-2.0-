@@ -48,15 +48,5 @@ function Portfolio() {
     </div>
   );
 }
-//   return (
-//     <div>
-//       <div className="d-flex">
-//         {projects.map((project) => (
-//           <ProjectCard project={project} key={"project-" + project.name} />
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
 
 export default Portfolio;

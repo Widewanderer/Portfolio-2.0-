@@ -8,36 +8,26 @@ This project is licensed under the terms of the [MIT](https://opensource.org/lic
   -----
 
   ## Description 
-
-  A logo generator which creates initialed logos in SVG files. Parameters are created using Question promts generated in the terminal using inquirer. Colors can also be selcted for text and background shape. 
+  
+  A portfolio page for Slava the # Widewanderer. Site contains some basic personal info, links to projects on portfolio page, print or sendable resume, and email contact page. Site was built using React and Bootstap React. 
     
   -----
+  ## Future Development
 
- ## Table of Contents
-  - [installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#contributing)
-  - [Questions](#questions)
+  This site is a work in progress. And will continue to be updated moving forward. Ideas for later edition include. 
 
-  ## Installation 
-  Download project from GitHub. Use npm install for Inquirer and fs.  
-
-  -----
-
-  ## Usage
-  Use a Node Index.js command in the terminal is initiate the program. Answer question prompts which appear in terminal. SVG will be generated in accourdance with your answers. Color selection can be a common color keyword or a hexidecimal. 
+  - Updated Resume
+  - Photo/ illustrated Image in round view in left side of banner. 
+  - Simple moving animations
+  - fixed/ sticky positioning nav bar
+  - Section with Icons of programming languages and tools know
+  - Further details about non-programming experiences and skills 
+  - Goals section? 
 
   -----
 
-  ## Contributing
-  If your want to contribute. Email created using email provided below. 
-
-  -----
-
-  ## Tests
-    Tests for shape construction are included using jest and can be run in the terminal using the npm test command. 
+  ## Contributions
+  Meg Myers and Erik Hirsch assisted with the creation of this website.
 
   -----
 

@@ -23,7 +23,7 @@ export default function About() {
         using the Codeacedmy website. ( What I am doing now// What I want to do
         in the future//)
       </p>
-      <p>( What I am doing now// What I want to do in the future//)</p>
+      {/* <p>( What I am doing now// What I want to do in the future//)</p> */}
     </div>
   );
 }

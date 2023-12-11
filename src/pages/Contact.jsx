@@ -38,9 +38,10 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
+      <h3>Send me an email!</h3>
       <p>
-        ( Contact info// / Links to email, github, linkedin, resume,// Email
-        form? )
+        {/* ( Contact info// / Links to email, github, linkedin, resume,// Email
+        form? ) */}
       </p>
       {/* flex direction column in container to stack form elements */}
       <div
