@@ -6,3 +6,8 @@
   background-size: cover;
   background-position: center;
 }
+
+.toolImage {
+  height: 60px;
+  width: 60px;
+}

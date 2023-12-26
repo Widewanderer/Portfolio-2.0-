@@ -1,3 +1,5 @@
+import DisplayTools from "../components/Tools.jsx";
+
 export default function About() {
   return (
     <div>
@@ -24,6 +26,7 @@ export default function About() {
         in the future//)
       </p>
       {/* <p>( What I am doing now// What I want to do in the future//)</p> */}
+      <DisplayTools/>
     </div>
   );
 }
