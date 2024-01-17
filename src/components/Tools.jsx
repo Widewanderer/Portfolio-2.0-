@@ -33,42 +33,40 @@ export default function DisplayTools() {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
     },
   ];
-
-  const outerContainerStyle = {
+const outerContainerStyle = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    // height: "140px", // Adjust as needed
     width: "100%",
   };
 
   const innerContainerStyle = {
-    display: "flex",
-    flexWrap: "wrap",
+    display: "grid",
     justifyContent: "center",
     alignItems: "center",
-    margin: "5px",
-    width: "50%",
-    padding: "5px",
+    gap: "10px",
+    width: "60%",
+    padding: "20px",
     borderRadius: "10px",
-    backgroundColor: "#0E3608",
-    // backgroundColor: "#1C4E15",
+    backgroundColor: "#167406",
+    // backgroundColor: "#0E3608",
+    // Limit the maximum number of items per row to 4
+    gridTemplateColumns: "1fr 1fr 1fr 1fr",
   };
 
   const skillStyle = {
-    marginBottom: "8px", // Adjust as needed
+    marginBottom: "8px",
     textAlign: "center",
-    margin: "0 15px",
-    padding: "15px",
-    margin: "5px 5px",
-    width: "23%",
-    borderRadius: "10px",
-    backgroundColor: "#051902",
+    padding: "10px",
+    borderRadius: "15px",
+    width: "100%",
+    // backgroundColor: "white",
+    backgroundColor: "#0B3D02",
   };
 
-  // could modify "toolImage" to directly change size of SRCs 
-  
-// 
+  // could modify "toolImage" to directly change size of SRCs
+
+  //
 
   return (
     <div style={outerContainerStyle}>
@@ -81,15 +79,7 @@ export default function DisplayTools() {
         ))}
       </div>
     </div>
-
-    //   return(
-    //     <>
-    //     {skills.map(skill => (
-    //         <>
-    //         <img className="toolImage" src={skill.src} />
-    //         <p>{skill.name}</p>
-    //         </>
-    //     ))}
-    //     </>
   );
 }
+
+  
