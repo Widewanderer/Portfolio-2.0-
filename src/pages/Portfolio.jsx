@@ -1,4 +1,3 @@
-import ProjectCard from "../components/Cards.jsx";
 import ProjectCardList from "../components/Cards.jsx";
 
 function Portfolio() {
