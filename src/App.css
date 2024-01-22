@@ -11,4 +11,13 @@
   width: 60px;
 }
 
+.App {
+  min: height 110vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer {
+  margin-top: auto;
+}
 

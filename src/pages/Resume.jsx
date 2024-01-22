@@ -1,13 +1,17 @@
 import PDF from "../assets/SlavaPlaceHolderCVPDF.pdf";
 import { useState } from "react";
 
+const resumeStyle = {
+height:"37vh",
+}
+
 export default function Resume() {
   const [showPdf, setShowPdf] = useState(false);
   const handleToggle = () => {
     setShowPdf(!showPdf);
   };
   return (
-    <div>
+    <div className="Resume" style={resumeStyle}>
       <h1>Resume Page (about) </h1>
       <button onClick={handleToggle}>Toggle PDF</button>
       {showPdf ? (
