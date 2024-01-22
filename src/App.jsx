@@ -13,9 +13,7 @@ function App() {
       <main className="mx-3" >
         <Outlet />
       </main>
-      <div>
         <Footer />
-      </div>
     </>
   );
 }

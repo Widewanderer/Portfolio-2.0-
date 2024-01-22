@@ -8,6 +8,9 @@ const footerStyle = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  position:"fixed", 
+  bottom: 0, // Fix position to bottom of viewport
+  width:"100%",
 };
 
 const Footer = () => {
