@@ -2,7 +2,7 @@ import PDF from "../assets/SlavaPlaceHolderCVPDF.pdf";
 import { useState } from "react";
 
 const resumeStyle = {
-height:"37vh",
+height:"40vh",
 }
 
 export default function Resume() {
