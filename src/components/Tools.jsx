@@ -34,7 +34,7 @@ export default function DisplayTools() {
     },
   ];
 const outerContainerStyle = {
-    display: "flex",
+    display: "grid",
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
@@ -45,8 +45,8 @@ const outerContainerStyle = {
     justifyContent: "center",
     alignItems: "center",
     gap: "10px",
-    width: "60%",
-    padding: "20px",
+    width: "100%",
+    padding: "10px 25px",
     borderRadius: "10px",
     backgroundColor: "#167406",
     // backgroundColor: "#0E3608",
@@ -57,7 +57,7 @@ const outerContainerStyle = {
   const skillStyle = {
     marginBottom: "8px",
     textAlign: "center",
-    padding: "10px",
+    padding: "10px 20px",
     borderRadius: "15px",
     width: "100%",
     // backgroundColor: "white",
