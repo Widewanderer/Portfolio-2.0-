@@ -1,32 +1,52 @@
 import DisplayTools from "../components/Tools.jsx";
 
+const PTagStyle = {
+  padding: "10px 5vw",
+};
+
+
 export default function About() {
   return (
     <div>
       <h1>About</h1>
-      <p>
+      <p style={PTagStyle}>
         Welcome! My name is Slava and I am a full stack web developer. I have
         experience with JavaScript,CSS, HTML, React, Git, MongoDB, ORM, MVC,
         PWAs, MySQL, Node.js, and more. I have worked on team projects, have a
         orginization centered outlook, and good communication skills.
       </p>
-      <p>
-        I was first introduced to programming by my brother and my friend who
-        would speak to me about their work and basic computer science topics.
-        However, I only really began exploring the world of programming myself
-        in 2021. At first I just learned some simple concepts, began to learn a
-        little JavaScript and watching some videos. In the fall of 2022 I worked
-        through Codecademy's Learn JavaScript course. It was then I decided to
-        pursue programming more seriously and decided to enroll in a Fullstack
-        JavaScript Bootcamp though Vanderbuilt University in Nashville, TN. I am
-        currently working my way though the University of Vanderbuilt's Full
-        Stack Web Development Bootcamp. I am also learning suplementary STEM
-        skills using the Brilliant app and doing additional coding practice
-        using the Codeacedmy website. ( What I am doing now// What I want to do
-        in the future//)
+      <p style={PTagStyle}>
+        I was first introduced to programming by my brother and who would speak
+        to me about his work and basic computer science topics. This is where my
+        interest first began, and without him I doubt I would have ever have had
+        the inspirtation to begin my journey into the world of web development.
+        However, I only really began programming myself in 2021. At first I just
+        learned some simple concepts. I started by learning a little JavaScript,
+        watching some videos, and experimenting with VS code. In the fall of
+        2022 I worked through Codecademy's Learn JavaScript course. It was then
+        I decided to pursue programming more seriously and enrolled in a
+        Fullstack JavaScript Bootcamp though Vanderbuilt University. I labored
+        through the 6 month course after work and on weekends and graduted in
+        the December of 2024. Since then I have continued to reveiw and develop.
+        I am also learning suplementary STEM skills using the Brilliant app and
+        doing additional coding practice using the Codeacedmy website.
+      </p>
+      <p style={PTagStyle}>
+        Though the bootcamp was Fullstack, I feel that I am most attracted to
+        Front end development. There is something about creating a work of art
+        and funcitonality that is particularly rewarding to me. Thus, I will
+        continue to focus on front end development and design in the future
+        especially React. For now, I will continue to develop my skills by
+        working on projects such as this website,studying general IT skills,
+        learning simple animation with framer-motion, practicing with
+        CodeAcademy, and with sites such as HackerRank and CodeWars.
       </p>
       {/* <p>( What I am doing now// What I want to do in the future//)</p> */}
-      <DisplayTools/>
+      <DisplayTools />
+      <p style={PTagStyle}>
+        Feel free to explore this website and if you like what you see, send me
+        a friendly comment or job offer on the contact page. ))
+      </p>
     </div>
   );
 }

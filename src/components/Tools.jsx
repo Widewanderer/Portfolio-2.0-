@@ -38,6 +38,7 @@ const outerContainerStyle = {
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
+    margin: "30px 0",
   };
 
   const innerContainerStyle = {
