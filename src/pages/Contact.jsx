@@ -142,6 +142,9 @@ const SendEmailStyle = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
+  fontFamily: "'Teko', sans-serif",
+  fontWeight: 500,
+  fontSize: "70px",
 };
 
 export default function Contact() {
@@ -151,7 +154,7 @@ export default function Contact() {
     email: "",
     message: "",
   });
-  const tableWidth = { width: "260px" };
+  const tableWidth = { width: "40vw" };
 
   function sendEmail(e) {
     e.preventDefault();
