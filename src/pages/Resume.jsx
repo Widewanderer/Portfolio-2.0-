@@ -1,4 +1,4 @@
-import PDF from "../assets/SlavaPlaceHolderCVPDF.pdf";
+import PDF from "../assets/SlavaTysonTrotzCVPDF.pdf";
 import { useState } from "react";
 
 const resumeStyle = {
