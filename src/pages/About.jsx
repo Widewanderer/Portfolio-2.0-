@@ -8,7 +8,7 @@ const PTagStyle = {
 export default function About() {
   return (
     <div>
-      <h1>About</h1>
+      <h1>About</h1> 
       <p style={PTagStyle}>
         Welcome! My name is Slava and I am a full stack web developer. I have
         experience with JavaScript,CSS, HTML, React, Git, MongoDB, ORM, MVC,
