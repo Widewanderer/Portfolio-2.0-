@@ -2,7 +2,7 @@ import PDF from "../assets/SlavaTysonTrotzCVPDF.pdf";
 import { useState } from "react";
 
 const resumeStyle = {
-height:"40vh",
+minHeight: "50vh",
 }
 
 export default function Resume() {
@@ -27,9 +27,6 @@ export default function Resume() {
       ) : (
         <p>
           Hit the "Toggle PDF button to view the Resume!"
-          {/* (RESUME ) Lists of languages, frameworks, libraries, and tools Ive
-          used. ( List of projects// Links to projects// Description of
-          projects//?? ) (here or in seperate Page) */}
         </p>
       )}
     </div>
