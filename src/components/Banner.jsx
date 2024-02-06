@@ -10,9 +10,9 @@ export default function Banner() {
 
   const photoStyle = {
     position: "absolute", // Position the photo absolutely within the banner
-    top: "5vh", // Adjust the top position as needed
-    left: "5vw", // Adjust the left position as needed
-    width: "120px", // Adjust the width of the photo
+    top: "5vh", 
+    left: "5vw", 
+    width: "120px", 
     height: "auto", // Maintain aspect ratio
     borderRadius: "50%",
   };
@@ -21,7 +21,6 @@ export default function Banner() {
     <div className="banner" style={bannerStyle}>
       {/* Display the photo */}
       <img src={MidJourney} alt="Profile Picture" style={photoStyle} />
-      {/* Add additional content or text if needed */}
     </div>
   );
 }
