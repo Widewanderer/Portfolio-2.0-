@@ -88,8 +88,12 @@
 import React from "react";
 import JavaScriptSVG from "../assets/SVGs/javascript.svg";
 import CssSVG from "../assets/SVGs/css.svg";
+import HTMLSVG from "../assets/SVGs/html.svg";
 import NodeSVG from '../assets/SVGs/node.svg';
 import ReactSVG from '../assets/SVGs/react.svg';
+import GitHubSVG from '../assets/SVGs/github.svg';
+import MongoDBSVG from '../assets/SVGs/mongodb.svg';
+import Express from '../assets/SVGs/express.svg';
 
 
 export default function DisplayTools() {
@@ -103,6 +107,14 @@ export default function DisplayTools() {
       icon: CssSVG,
     },
     {
+      name: "html",
+      icon: HTMLSVG,
+    },
+    {
+      name: "github",
+      icon: GitHubSVG,
+    },
+    {
       name: "node",
       icon: NodeSVG,
     },
@@ -110,6 +122,14 @@ export default function DisplayTools() {
       name: "react",
       icon: ReactSVG,
     },
+    {
+      name: "mongodb",
+      icon: MongoDBSVG,
+    },
+    {
+      name: "express",
+      icon: Express,
+    }
     // Add other skills with their corresponding SVG icons
   ];
 
@@ -121,7 +141,7 @@ export default function DisplayTools() {
             {/** Use the imported SVG component directly */}
             <img src={skill.icon} className="toolImage" />
             {/* <skill.icon className="toolImage" alt={skill.name} /> */}
-            {/* <p>{skill.name}</p> */}
+            <p style={skillScriptStyle}>{skill.name}</p>
           </div>
         ))}
       </div>
@@ -135,7 +155,7 @@ const outerContainerStyle = {
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
-    margin: "30px 0",
+    margin: "20px 0",
   };
 
   const innerContainerStyle = {
@@ -144,8 +164,8 @@ const outerContainerStyle = {
     alignItems: "center",
     gap: "10px",
     width: "100%",
-    padding: "10px 25px",
-    borderRadius: "10px",
+    padding: "10px 50px",
+    borderRadius: "30px",
     backgroundColor: "#167406",
     // backgroundColor: "#0E3608",
     // Limit the maximum number of items per row to 4
@@ -153,11 +173,15 @@ const outerContainerStyle = {
   };
 
   const skillStyle = {
-    marginBottom: "8px",
+    marginBottom: "10px",
     textAlign: "center",
-    padding: "10px 20px",
-    borderRadius: "15px",
+    padding: "10px 35px",
+    borderRadius: "30px",
     width: "100%",
-    // backgroundColor: "white",
     backgroundColor: "#0B3D02",
+  };
+
+  const skillScriptStyle = {
+    color: "black",
+    fontWeight: "600",
   };

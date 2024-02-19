@@ -8,28 +8,28 @@ const PTagStyle = {
 export default function About() {
   return (
     <div>
-      <h1>About</h1> 
+      <h1>About</h1>
       <p style={PTagStyle}>
-        Welcome! My name is Slava and I am a full stack web developer. I have
-        experience with JavaScript,CSS, HTML, React, Git, MongoDB, ORM, MVC,
-        PWAs, MySQL, Node.js, and more. I have worked on team projects, have a
-        orginization centered outlook, and good communication skills.
+        "Welcome! My name is Slava, and I am a full-stack web developer. I have
+        experience with JavaScript, CSS, HTML, React, Git, MongoDB, ORM, MVC,
+        PWAs, MySQL, Node.js, and more. I have worked on team projects, have an
+        organization-centered outlook, and good communication skills."
       </p>
       <p style={PTagStyle}>
-        I was first introduced to programming by my brother and who would speak
-        to me about his work and basic computer science topics. This is where my
-        interest first began, and without him I doubt I would have ever have had
-        the inspirtation to begin my journey into the world of web development.
-        However, I only really began programming myself in 2021. At first I just
-        learned some simple concepts. I started by learning a little JavaScript,
-        watching some videos, and experimenting with VS code. In the fall of
-        2022 I worked through Codecademy's Learn JavaScript course. It was then
-        I decided to pursue programming more seriously and enrolled in a
-        Fullstack JavaScript Bootcamp though Vanderbuilt University. I labored
-        through the 6 month course after work and on weekends and graduted in
-        the December of 2024. Since then I have continued to reveiw and develop.
-        I am also learning suplementary STEM skills using the Brilliant app and
-        doing additional coding practice using the Codeacedmy website.
+        I was first introduced to programming by my brother, who would speak to
+        me about his work and basic computer science topics. This is where my
+        interest first began, and without him, I doubt I would have ever had the
+        inspiration to begin my journey into the world of web development.
+        However, I only really began programming myself in 2021. At first, I
+        just learned some simple concepts. I started by learning a little
+        JavaScript, watching some videos, and experimenting with VS Code. In the
+        fall of 2022, I worked through Codecademy's Learn JavaScript course. It
+        was then I decided to pursue programming more seriously and enrolled in
+        a Fullstack JavaScript Bootcamp through Vanderbilt University. I labored
+        through the 6-month course after work and on weekends and graduated in
+        December of 2024. Since then, I have continued to review and develop. I
+        am also learning supplementary STEM skills using the Brilliant app and
+        doing additional coding practice using the Codecademy website.
       </p>
       <p style={PTagStyle}>
         Though the bootcamp was Fullstack, I feel that I am most attracted to
