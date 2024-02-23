@@ -83,18 +83,17 @@
 //   );
 // }
 
-  // PURE SVG PROTOTYPE CONVERSION 
+// PURE SVG PROTOTYPE CONVERSION
 
 import React from "react";
 import JavaScriptSVG from "../assets/SVGs/javascript.svg";
 import CssSVG from "../assets/SVGs/css.svg";
 import HTMLSVG from "../assets/SVGs/html.svg";
-import NodeSVG from '../assets/SVGs/node.svg';
-import ReactSVG from '../assets/SVGs/react.svg';
-import GitHubSVG from '../assets/SVGs/github.svg';
-import MongoDBSVG from '../assets/SVGs/mongodb.svg';
-import Express from '../assets/SVGs/express.svg';
-
+import NodeSVG from "../assets/SVGs/node.svg";
+import ReactSVG from "../assets/SVGs/react.svg";
+import GitHubSVG from "../assets/SVGs/github.svg";
+import MongoDBSVG from "../assets/SVGs/mongodb.svg";
+import Express from "../assets/SVGs/express.svg";
 
 export default function DisplayTools() {
   const skills = [
@@ -115,7 +114,7 @@ export default function DisplayTools() {
       icon: GitHubSVG,
     },
     {
-      name: "node",
+      name: "node.js",
       icon: NodeSVG,
     },
     {
@@ -123,13 +122,13 @@ export default function DisplayTools() {
       icon: ReactSVG,
     },
     {
-      name: "mongodb",
+      name: "mongoDB",
       icon: MongoDBSVG,
     },
     {
-      name: "express",
+      name: "express.js",
       icon: Express,
-    }
+    },
     // Add other skills with their corresponding SVG icons
   ];
 
@@ -139,7 +138,7 @@ export default function DisplayTools() {
         {skills.map((skill, index) => (
           <div key={index} style={skillStyle}>
             {/** Use the imported SVG component directly */}
-            <img src={skill.icon} className="toolImage" />
+            <img src={skill.icon} className="toolImage"/>
             {/* <skill.icon className="toolImage" alt={skill.name} /> */}
             <p style={skillScriptStyle}>{skill.name}</p>
           </div>
@@ -149,39 +148,38 @@ export default function DisplayTools() {
   );
 }
 
-
 const outerContainerStyle = {
-    display: "grid",
-    justifyContent: "center",
-    alignItems: "center",
-    width: "100%",
-    margin: "20px 0",
-  };
+  display: "grid",
+  justifyContent: "center",
+  alignItems: "center",
+  width: "100%",
+  margin: "20px 0",
+};
 
-  const innerContainerStyle = {
-    display: "grid",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "10px",
-    width: "100%",
-    padding: "10px 50px",
-    borderRadius: "30px",
-    backgroundColor: "#167406",
-    // backgroundColor: "#0E3608",
-    // Limit the maximum number of items per row to 4
-    gridTemplateColumns: "1fr 1fr 1fr 1fr",
-  };
+const innerContainerStyle = {
+  display: "grid",
+  justifyContent: "center",
+  alignItems: "center",
+  gap: "10px",
+  width: "100%",
+  padding: "10px 50px",
+  borderRadius: "30px",
+  backgroundColor: "#167406", // light green background of tools container
+  // backgroundColor: "#0E3608",
+  // Limit the maximum number of items per row to 4
+  gridTemplateColumns: "1fr 1fr 1fr 1fr",
+};
 
-  const skillStyle = {
-    marginBottom: "10px",
-    textAlign: "center",
-    padding: "10px 35px",
-    borderRadius: "30px",
-    width: "100%",
-    backgroundColor: "#0B3D02",
-  };
+const skillStyle = {
+  marginBottom: "10px",
+  textAlign: "center",
+  padding: "10px 35px",
+  borderRadius: "30px",
+  width: "100%",
+  backgroundColor: "#0B3D02",
+};
 
-  const skillScriptStyle = {
-    color: "black",
-    fontWeight: "600",
-  };
+const skillScriptStyle = {
+  color: "black",
+  fontWeight: "600",
+};

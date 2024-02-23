@@ -1,6 +1,10 @@
 import Card from "react-bootstrap/Card";
 import * as projects from "../assets";
 
+// use media queries to make the cards responsive 
+// try making seperate css file (cards.module.css) and import it here
+                         // "choice".module.file type 
+
 function ProjectCard({ project }) {
   const { name, repo, link, description, image } = project;
   return (
@@ -32,7 +36,7 @@ function ProjectCardList({ projects }) {
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "space-between",
-        margin: "20px",
+        margin: "5%",
       }}
     >
       {projects.map((project, index) => (
