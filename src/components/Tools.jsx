@@ -92,7 +92,7 @@ import HTMLSVG from "../assets/SVGs/html.svg";
 import NodeSVG from "../assets/SVGs/node.svg";
 import ReactSVG from "../assets/SVGs/react.svg";
 import GitHubSVG from "../assets/SVGs/github.svg";
-import MongoDBSVG from "../assets/SVGs/mongodb.svg";
+import MongoDBSVG from "../assets/SVGs/mongoDB.svg";
 import Express from "../assets/SVGs/express.svg";
 
 export default function DisplayTools() {
