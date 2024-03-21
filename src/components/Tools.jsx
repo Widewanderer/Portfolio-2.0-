@@ -86,7 +86,7 @@
 // PURE SVG PROTOTYPE CONVERSION
 
 import React from "react";
-import JavaScriptSVG from "../assets/SVGs/javascript.svg";
+import JavaScriptSVG from "../assets/SVGs/javaScript.svg";
 import CssSVG from "../assets/SVGs/css.svg";
 import HTMLSVG from "../assets/SVGs/html.svg";
 import NodeSVG from "../assets/SVGs/node.svg";
