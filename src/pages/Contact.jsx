@@ -255,11 +255,17 @@ export default function Contact() {
                   onChange={handleChange}
                 />
               </td>
-              <td>
+              {/* <td>
                 <input type="submit" value="Send" />
-              </td>
+              </td> */}
             </tr>
           </table>
+          <div 
+          style= {{
+          display: "flex", 
+          justifyContent: "center"}}>
+            <input type="submit" value="Send" />
+          </div>
         </form>
       </div>
     </div>

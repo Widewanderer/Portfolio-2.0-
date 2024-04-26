@@ -1,17 +1,17 @@
 import Card from "react-bootstrap/Card";
 import * as projects from "../assets";
 
-// use media queries to make the cards responsive 
+// use media queries to make the cards responsive
 // try making seperate css file (cards.module.css) and import it here
-                         // "choice".module.file type 
+// "choice".module.file type
 
 function ProjectCard({ project }) {
   const { name, repo, link, description, image } = project;
   return (
-    <Card style={{ width: "30rem", margin: "10px", marginTop: "25px" }}>
+    <Card style={{ width: "30rem", margin: "10px", marginTop: "25px",}}>
       <a href={link}>
         <Card.Img
-          style={{ height: "280px" }}
+          // style={{ height: "280px" }} // add justify content center or space between & delete height
           variant="top"
           src={projects[image]}
           alt={name}
@@ -35,7 +35,7 @@ function ProjectCardList({ projects }) {
       style={{
         display: "flex",
         flexWrap: "wrap",
-        justifyContent: "space-between",
+        justifyContent: "center",
         margin: "5%",
       }}
     >
