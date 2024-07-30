@@ -26,10 +26,8 @@ export default function About() {
         fall of 2022, I worked through Codecademy's Learn JavaScript course. It
         was then I decided to pursue programming more seriously and enrolled in
         a Fullstack JavaScript Bootcamp through Vanderbilt University. I labored
-        through the 6-month course after work and on weekends and graduated in
-        December of 2024. Since then, I have continued to review and develop. I
-        am also learning supplementary STEM skills using the Brilliant app and
-        doing additional coding practice using the Codecademy website.
+        through the 6-month course after work and on weekends and finished my coursework in December 2024. Since then, I have continued to develop using self and assisted study. I
+        am also learning supplementary STEM skills using tools such as the Brilliant app, IT lecutures on YouTube, audio books, and other resources.
       </p>
       <p style={PTagStyle}>
         Though the bootcamp was Fullstack, I feel that I am most attracted to
@@ -44,8 +42,7 @@ export default function About() {
       {/* <p>( What I am doing now// What I want to do in the future//)</p> */}
       <DisplayTools />
       <p style={PTagStyle}>
-        Feel free to explore this website and if you like what you see, send me
-        a friendly comment or job offer on the contact page. ))
+     
       </p>
     </div>
   );
