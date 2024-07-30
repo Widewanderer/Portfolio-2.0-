@@ -13,15 +13,14 @@ function ProjectCard({ project }) {
         width: "30rem",
         margin: "10px",
         marginTop: "25px",
-        borderWidth: "5px",
+        borderWidth: "4px",
         borderColor: "#167406",
         boxShadow: "0 0 10px 10px rgba(0, 0, 0, 0.4)",
-        //"#0B3D02",
+        borderRadius: "10px",
       }}
     >
       <a href={link}>
         <Card.Img
-          // style={{ height: "280px" }} // add justify content center or space between & delete height
           variant="top"
           src={projects[image]}
           alt={name}

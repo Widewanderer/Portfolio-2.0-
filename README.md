@@ -4,6 +4,7 @@ This project is licensed under the terms of the [MIT](https://opensource.org/lic
 
     
   # The Widewanderer Portfolio 2.0
+  [Profile 2.0](https://widewanderer.netlify.app/)
 
   -----
 
