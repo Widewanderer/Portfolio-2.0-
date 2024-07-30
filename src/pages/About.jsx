@@ -10,10 +10,10 @@ export default function About() {
     <div>
       <h1>About</h1>
       <p style={PTagStyle}>
-        "Welcome! My name is Slava, and I am a full-stack web developer. I have
+        Welcome! My name is Slava, and I am a full-stack web developer. I have
         experience with JavaScript, CSS, HTML, React, Git, MongoDB, ORM, MVC,
         PWAs, MySQL, Node.js, and more. I have worked on team projects, have an
-        organization-centered outlook, and good communication skills."
+        organization-centered outlook, and good communication skills.
       </p>
       <p style={PTagStyle}>
         I was first introduced to programming by my brother, who would speak to
