@@ -8,8 +8,21 @@ const titleStyle = {
   alignContent: "center",
    textAlign: "center",
   //padding : "10px",
-  margin: "10px",
+  margin: "3px",
 }
+
+const imageStyle = {  
+  width: "100%",
+  height: "auto",
+  padding: "15px 15px 10px 15px",
+  borderRadius: "30px",
+  alignContent: "center",
+}
+
+
+
+
+
 
 function ProjectCard({ project }) {
   const { name, repo, link, description, image } = project;
@@ -26,10 +39,13 @@ function ProjectCard({ project }) {
       }}
     >
       <a href={link}>
-        <Card.Img variant="top" src={projects[image]} alt={name} />
+        <div>
+        <Card.Img variant="top" src={projects[image]} alt={name} 
+        style ={imageStyle} />
         <Card.Title style={titleStyle}>
           {name}
         </Card.Title>
+        </div>
       </a>
       <Card.Body>
         <Card.Text>{description}</Card.Text>
