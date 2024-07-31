@@ -4,6 +4,12 @@ import * as projects from "../assets";
 // use media queries to make the cards responsive
 // try making seperate css file (cards.module.css) and import it here
 // "choice".module.file type
+const titleStyle = {
+  alignContent: "center",
+   textAlign: "center",
+  //padding : "10px",
+  margin: "10px",
+}
 
 function ProjectCard({ project }) {
   const { name, repo, link, description, image } = project;
@@ -20,17 +26,18 @@ function ProjectCard({ project }) {
       }}
     >
       <a href={link}>
-        <Card.Img
-          variant="top"
-          src={projects[image]}
-          alt={name}
-        />
-        <Card.Title>{name}</Card.Title>
+        <Card.Img variant="top" src={projects[image]} alt={name} />
+        <Card.Title style={titleStyle}>
+          {name}
+        </Card.Title>
       </a>
       <Card.Body>
         <Card.Text>{description}</Card.Text>
       </Card.Body>
-      <Card.Link href={repo}>
+      <Card.Link
+        href={repo}
+        style={titleStyle}
+      >
         {" "}
         <i className="fab fa-github" style={{ fontSize: "30px" }}></i> GitHub
       </Card.Link>
