@@ -5,7 +5,7 @@ export { default as Pic2} from "./projects/2.png";
 export { default as codingQuizMain} from "./projects/codingQuizMain.png";
 export { default as codingQuizQuestion} from "./projects/codingQuizQues.png";
 export { default as culturedCuisine} from "./projects/culturedCuisineCleanshot.png";
-export { default as MelodyMapper} from "./projects/MelodyMapper.png";
+export { default as MelodyMapper} from "./projects/melodyMapperCleanShot.png";
 export { default as TechBlog} from "./projects/techBlogCleanShot.png";
 export { default as WeatherWisePic} from "./projects/WeatherWisePic.png";
 export { default as WorkDayScheduler} from "./projects/WorkDayScheduler.png";
