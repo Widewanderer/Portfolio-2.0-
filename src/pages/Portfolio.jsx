@@ -16,6 +16,14 @@ function Portfolio() {
       image: "culturedCuisine",
     },
     {
+      name: "Would You Rather",
+      description:
+        " Would You Rather is a polling based website. Users can create an account, create, edit, and delete polls in their profiles, as well as cast votes for polls created by other users. Website is a full-stack application built using React in coordination with a small group of developers.",
+      link: "https://wyr-3b5b304bab70.herokuapp.com/user-polls",
+      repo: "https://github.com/Widewanderer/Would-You-Rather-Quizes?tab=readme-ov-file",
+      image: "WouldYouRather",
+    },
+    {
       name: "Tech Blog",
       description:
         "A simple CMS style blog site built in the MVC paradigm structure. Finished version of site will allow users to sign in, make, edit, and delete posts, as well as comment on posts. Website uses Sequilize for ORM, and the express-session npm package for authentication.",
@@ -31,16 +39,7 @@ function Portfolio() {
       repo: "https://github.com/PGold762/MelodyMapper",
       image: "MelodyMapper",
     },
-    {
-      name: "Would You Rather",
-      description:
-        " Would You Rather is a polling based website. Users can create an account, create, edit, and delete polls in their profiles, as well as cast votes for polls created by other users. Website is a full-stack application built using React in coordination with a small group of developers.",
-      link: "https://wyr-3b5b304bab70.herokuapp.com/user-polls",
-      repo: "https://github.com/Widewanderer/Would-You-Rather-Quizes?tab=readme-ov-file",
-      image: "WouldYouRather",
-    },
   ];
-
   // for each project, use the Project component to build a project
   return (
     <div>
