@@ -32,12 +32,12 @@ function Portfolio() {
       image: "MelodyMapper",
     },
     {
-      name: "Weather Wise",
+      name: "Would You Rather",
       description:
-        " Weather Wise is a weather forcast dashboard which presents users with the ability to search for the current weather in a city. After doing so, the user then has the option to expand the search for weather in the searched location for the next 5 days. OpenWeather API was used in the creation of this site.",
-      link: "https://the-great-slavic-tech-blog-4107dec86ccf.herokuapp.com/",
-      repo: "https://github.com/Widewanderer/Tech-Blog",
-      image: "WeatherWisePic",
+        " Would You Rather is a polling based website. Users can create an account, create, edit, and delete polls in their profiles, as well as cast votes for polls created by other users. Website is a full-stack application built using React in coordination with a small group of developers.",
+      link: "https://wyr-3b5b304bab70.herokuapp.com/user-polls",
+      repo: "https://github.com/Widewanderer/Would-You-Rather-Quizes?tab=readme-ov-file",
+      image: "WouldYouRather",
     },
   ];
 
