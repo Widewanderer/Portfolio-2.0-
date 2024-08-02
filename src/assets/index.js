@@ -9,7 +9,7 @@ export { default as MelodyMapper} from "./projects/melodyMapperCleanShot.png";
 export { default as TechBlog} from "./projects/techBlogCleanShot.png";
 export { default as WeatherWisePic} from "./projects/WeatherWisePic.png";
 export { default as WorkDayScheduler} from "./projects/WorkDayScheduler.png";
-export { default as WouldYouRather} from "./projects/wouldYouRatherCleanShot.png";
+export { default as WouldYouRather} from "./projects/wouldYouRatherCleanshot.png";
 
 // make and export for all 6 images 
 
