@@ -57,3 +57,10 @@ p {
   filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
     brightness(118%) contrast(119%);
 }
+
+/* .p-img {
+  width: "300px";
+  height: "200px";
+  objectFit: "cover";
+  display: "block";
+} */
