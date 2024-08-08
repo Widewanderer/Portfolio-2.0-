@@ -19,7 +19,7 @@ function Portfolio() {
       name: "Would You Rather",
       description:
         " Would You Rather is a polling based website. Users can create an account, create, edit, and delete polls in their profiles, as well as cast votes for polls created by other users. Website is a full-stack application built using React in coordination with a small group of developers.",
-      link: "https://wyr-3b5b304bab70.herokuapp.com/user-polls",
+      link: "https://wyr-3b5b304bab70.herokuapp.com/",
       repo: "https://github.com/Widewanderer/Would-You-Rather-Quizes?tab=readme-ov-file",
       image: "WouldYouRather",
     },
