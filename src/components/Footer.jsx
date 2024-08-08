@@ -4,7 +4,7 @@ const footerStyle = {
   height: "75px",
   padding: "15px",
   marginTop: "40px",
-  backgroundColor: "#232323", // Add a background color for visibility
+  backgroundColor: "#232323", 
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
