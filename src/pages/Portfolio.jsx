@@ -34,7 +34,7 @@ function Portfolio() {
     {
       name: "Melody Mapper",
       description:
-        "A team built live music application that can search concerts in the Nashville area. Users can search by band name, date, and even add specific concerts/live music to favorites section saving to local storage. Concerts are displayed from closest performance time and date to most distant performance time and date. links are also provided using the tickemaster API alowing users to perchase tickets. Application addtionally uses a second API (RealTimeEventSearch) for additional concert searches. Tailwind is used for styling framework. ",
+        "A team built live music application that can search concerts in the Nashville area. Users can search by band name, date, and even add specific performances to favorites section. Concerts are displaye with nearest date on top. Links are provided for purchase of tickets.",
       link: "https://pgold762.github.io/MelodyMapper/",
       repo: "https://github.com/PGold762/MelodyMapper",
       image: "MelodyMapper",
